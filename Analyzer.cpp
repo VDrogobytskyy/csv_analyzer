@@ -5,15 +5,6 @@
 #include <stdexcept> 
 #include <cstdlib>   
 
-std::string Analysing::Get_Sensor_Name(std::vector<std::pair<std::string, std::string> > &data){
-
-    if (data.empty()) {
-        throw std::runtime_error("Empty data vector");
-    }
-
-    return data[0].second;
-}
-
 double Analysing::Get_Duration(std::vector<std::pair<std::string, std::string> > &data){
 
     if (data.empty()) {

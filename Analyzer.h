@@ -6,8 +6,6 @@
 
 class Analysing{
     public:
-        std::string Get_Sensor_Name(std::vector<std::pair<std::string, std::string> > &data);
-
         double Get_Duration(std::vector<std::pair<std::string, std::string> > &data);
         double Get_Max_Sensor_value(std::vector<std::pair<std::string, std::string> > &data);
         double Get_Min_Sensor_value(std::vector<std::pair<std::string, std::string> > &data);
