@@ -3,7 +3,7 @@ TARGET = main
 CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
-DATAFILE = Mobile_phone.csv
+DATAFILE = YOUR_FILE_NAME.csv
 
 all: $(TARGET)
 
