@@ -1,8 +1,9 @@
-#include "iostream"
-#include "fstream"
-#include "string"
-#include "sstream"
-#include "vector"
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <sstream>
+#include <vector>
+
 
 
 int main(int argc, char* argv[]){
@@ -44,6 +45,10 @@ int main(int argc, char* argv[]){
 
 
     file.close();
+
+    std::cout << std::endl;
+    std::cout << "This is all collected data from file: " << file_name << std::endl;
+
     std::cout << std::endl;
     return 0;
 }
