@@ -1,0 +1,11 @@
+
+.vscode/
+build/
+output/
+
+*.o
+*.exe
+*.out
+*.csv
+
+Mobile_phone.csv
